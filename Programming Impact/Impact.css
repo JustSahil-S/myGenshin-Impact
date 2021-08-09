@@ -1,0 +1,105 @@
+.topnav {
+  background-color: #2D2D2D ;
+  overflow: hidden;
+  margin: 0 auto;
+  height: 48px;
+  width: 100%;
+  font-size: 17px;
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin:0 auto;
+  border-right: 1px solid white;
+}
+.topnav a:hover {
+  background-color: #C1C1C1;
+  color: black;
+}
+.topnav a.active {
+  background-color: #00DFA6;
+  color: white;
+}
+body {
+  margin:0;
+  padding:0;
+  background-color: #8EFFBF;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+.charlist {
+  position: relative;
+  background-color: #2D2D2D;
+  margin-top: 10px;
+  margin-right: 10px;
+  float: right;
+  border: solid 8px  #2D2D2D;
+  text-align: center;
+  color: white;
+}
+.heading {
+  font-size: 50px;
+  text-align: center;
+  background-color: #2D2D2D;
+  color: white;
+  border-top: 1px solid white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.info {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 100px;
+}
+.infodesc {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 20px
+}
+.kazuha-img {
+  display: block;
+  float: left;
+  margin-top: 57px;
+  border: 8px solid #2D2D2D;
+  margin-left: 10px;
+  font-size: 16px;
+  background-color: #2D2D2D;
+}
+.Kazuha-table {
+  display: inline-block;
+  margin-left: 20px;
+}
+td, th {
+  border: 1px solid #2D2D2D;
+  text-align: left;
+  font-size: 20px;
+  padding: 12px;
+  background-color: white;
+
+}
+.kazuha {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.talents {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;}
+.constellations {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;}

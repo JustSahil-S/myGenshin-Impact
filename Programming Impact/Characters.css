@@ -1,0 +1,58 @@
+.topnav {
+  background-color: #2D2D2D ;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin:0 auto;
+  border-right: 1px solid white;
+}
+.topnav a:hover {
+  background-color: #C1C1C1;
+  color: black;
+}
+.topnav a.active {
+  background-color: #00DFA6;
+  color: white;
+}
+body {
+  margin:0;
+  padding:0;
+  background-color: #8EFFBF;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+.charlist {
+  position: relative;
+  background-color: white;
+  margin-top: 10px;
+  margin-right: 10px;
+  float: right;
+  border: solid 8px  #2D2D2D;
+}
+.info {
+  font-size: 50px;
+  text-align: center;
+  background-color: #2D2D2D;
+  color: white;
+  border-top: 1px solid white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.infodesc {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 20px
+}
